@@ -1,0 +1,22 @@
+echo "Enter an Alphabet:"
+read a
+case $a in
+	"a")
+		echo "Vovel"
+	;;
+	"e")
+		echo "Vovel"
+	;;
+	"i")
+		echo "Vovel"
+	;;
+	"o")
+		echo "Vovel"
+	;;
+	"u")
+		echo "Vovel"
+	;;
+	*)
+		echo "Consonant"
+	;;
+esac

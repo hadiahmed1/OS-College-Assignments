@@ -1,0 +1,18 @@
+echo "Enter 3 Numbers:"
+read a b c
+if [ $a -gt $b ]
+then
+	if [ $a -gt $c ]
+	then
+		echo $a "is Largest"
+	else
+		echo $c "is Largest"
+	fi
+else
+	if [ $b -gt $c ]
+	then 
+		echo $b "is Largest"
+	else
+		echo $c "is Largest"
+	fi
+fi

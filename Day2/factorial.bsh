@@ -1,0 +1,9 @@
+echo "Enter a Number:"
+read count
+fact=1
+while [ $count -gt 1 ]
+do
+	fact=$(( count * fact ))
+	count=$(( count - 1 ))
+done
+echo $fact

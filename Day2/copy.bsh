@@ -1,0 +1,8 @@
+var1='a'
+var2='b'
+copy(){
+	var2=$var1
+}
+copy
+echo $var1
+echo $var2

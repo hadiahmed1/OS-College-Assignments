@@ -1,0 +1,10 @@
+echo "Enter 2 Numbers"
+read a b
+sum=`expr $a + $b`
+dif=`expr $a - $b`
+mul=`expr $a \* $b`
+div=`expr $a / $b`
+echo "sum=" $sum
+echo "dif=" $dif
+echo "mul=" $mul
+echo "div=" $div

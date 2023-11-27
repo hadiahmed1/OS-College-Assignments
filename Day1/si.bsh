@@ -1,0 +1,4 @@
+echo "Enter P,R & T"
+read p r t
+si=`expr $p \* $r \* $t / 100`
+echo "Simple Intrest=" $si
